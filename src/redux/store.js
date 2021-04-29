@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import ToDoReducer from './toDoReducer';
+import ToDoReducer from './todoReducer';
 
 export default configureStore({
   reducer: {

@@ -36,7 +36,7 @@ const ToDoModal = ({ toDo, handleFormSubmit, show, handleClose }) => {
     return (
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                <Modal.Title>Add new todo</Modal.Title>
             </Modal.Header>
             <Form onSubmit={event => {
                 event.preventDefault();
